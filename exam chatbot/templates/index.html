@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Exam Chatbot</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🤖 AI Exam Preparation Chatbot</h1>
+
+    <input id="topic" placeholder="Topic (e.g. Bayes Theorem)">
+    <input id="question" placeholder="Enter your question">
+    
+    <select id="marks">
+        <option value="2">2 Marks</option>
+        <option value="6">6 Marks</option>
+        <option value="10">10 Marks</option>
+    </select>
+
+    <button onclick="askAI()">Ask AI</button>
+
+    <div id="answerBox"></div>
+
+    <button class="reportBtn" onclick="loadReport()">📊 Weak Area Report</button>
+    <div id="report"></div>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>

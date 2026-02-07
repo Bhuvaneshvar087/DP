@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    animation: fadeIn 1s;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #1e3c72;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#answerBox {
+    margin-top: 20px;
+    white-space: pre-line;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
